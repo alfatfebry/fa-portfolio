@@ -3,6 +3,7 @@ import { DM_Sans, Anonymous_Pro } from 'next/font/google';
 import './globals.css';
 import StoreProvider from '@/store/StoreProvider';
 import Navbar from '@/components/layout/Navbar';
+import ThemeSync from '@/components/layout/ThemeSync';
 
 const dmsans = DM_Sans({
   variable: '--font-dm-sans',
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
     >
       <body className='min-h-full flex flex-col'>
         <StoreProvider>
+          <ThemeSync />
           <Navbar />
           {children}
         </StoreProvider>

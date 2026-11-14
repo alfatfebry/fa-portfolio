@@ -1,11 +1,12 @@
  import { configureStore } from "@reduxjs/toolkit";
- import uiReducer from './slices/uiSlice'
+ import uiReducer from './slices/uiSlice';
+ import themeReducer from "./slices/themeSlice";
 
  export const makeStore = () => configureStore({
   reducer: {
-    // slice-slie akan didaftarin disini nntinya
-
+    
     ui: uiReducer,
+    theme: themeReducer,
   }
  })
 
