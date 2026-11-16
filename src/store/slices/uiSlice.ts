@@ -14,7 +14,6 @@ const uiSlice = createSlice({
   name: "ui",
   initialState,
   reducers: {
-    // aksi tanpa data tambahan
     toggleMenu(state){
       state.isMenuOpen = !state.isMenuOpen;
     },

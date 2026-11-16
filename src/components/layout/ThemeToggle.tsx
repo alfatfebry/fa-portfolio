@@ -29,7 +29,7 @@ export default function ThemeToggle() {
       </span>
 
       <span
-        className={`flex h-7 w-7 items-center justify-center rounded-full transition-colors ${isDark ? 'bg-foreground text-background/60' : 'text-background/60'}`}
+        className={`flex h-7 w-7 items-center justify-center rounded-full transition-colors ${isDark ? 'bg-foreground text-background/60' : 'text-foreground'}`}
       >
         <Moon size={16} />
       </span>
