@@ -4,6 +4,7 @@ import './globals.css';
 import StoreProvider from '@/store/StoreProvider';
 import Navbar from '@/components/layout/Navbar';
 import ThemeSync from '@/components/layout/ThemeSync';
+import Footer from '../components/layout/Footer';
 
 const dmsans = DM_Sans({
   variable: '--font-dm-sans',
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
           <ThemeSync />
           <Navbar />
           {children}
+          <Footer />
         </StoreProvider>
       </body>
     </html>
