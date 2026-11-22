@@ -5,7 +5,7 @@ import Planets from './Planets';
 
 export default function Hero() {
   return (
-    <section className='h-[1000px] relative overflow-hidden bg-linear-to-b from-scene-top to-scene-bottom'>
+    <section className='relative overflow-hidden bg-linear-to-b from-scene-top to-scene-bottom'>
       {/* Stars Component */}
       <Stars />
       {/* Planet Component */}
