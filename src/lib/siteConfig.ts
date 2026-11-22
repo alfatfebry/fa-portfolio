@@ -7,7 +7,7 @@ export const siteConfig = {
     lines: ['Perumahan Persada Banten', 'Serang - Banten, Indonesia']
   },
   contact: {
-    email: 'hello@yourname',
+    email: 'febryalfat@gmail.com',
     phone: '+628901234 5677983'
   },
   socials: [

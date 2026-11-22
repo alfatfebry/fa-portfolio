@@ -1,11 +1,16 @@
 import Link from 'next/link';
 import Stars from './Stars';
 import Cloud from './CLoud';
+import Planets from './Planets';
 
 export default function Hero() {
   return (
-    <section className='relative overflow-hidden bg-linear-to-b from-scene-top to-scene-bottom'>
+    <section className='h-[1000px] relative overflow-hidden bg-linear-to-b from-scene-top to-scene-bottom'>
+      {/* Stars Component */}
       <Stars />
+      {/* Planet Component */}
+      <Planets />
+      {/* Cloud Component */}
       <Cloud top='12%' size={1} duration={100} delay={-20} opacity={0.9} />
       <Cloud top='55%' size={1.4} duration={120} delay={-70} opacity={0.8} />
       <Cloud top='78%' size={0.8} duration={65} delay={-40} opacity={0.7} />
